@@ -1,0 +1,38 @@
+*{
+    direction: rtl;
+}
+.row h1 ,  .row h3{
+    text-align: center;
+    color: #45274D;
+}
+/* .row h1{
+    text-align: right !important;
+
+} */
+
+.insects.row h3{
+    color: #C27C3E!important;
+}
+ 
+.insects{
+    background-color: #ffffff;
+    height: 99.9vh;
+}
+.chemist .row img{
+    margin-right: 400px;
+}
+ .row p{
+    font-size:23px;
+    color:#45274D ;
+}
+ .row ol{
+    list-style-type: circle;
+    margin-right: 50px;
+    color: #908885;
+}
+.row{
+    margin: auto !important;
+}
+.row ol li{
+    font-size: 20px;
+}

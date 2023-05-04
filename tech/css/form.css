@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+.form{
+    background-color: rgb(195, 244, 244);
+   
+}
+form{
+    margin: auto !important;
+
+}
+input , textarea{
+    display: block;
+    border-radius: 5px;
+}
+
+textarea{
+    height: 180px;
+}
+.input{
+    background-color: teal;
+    color: white;
+    margin: auto;
+    
+}

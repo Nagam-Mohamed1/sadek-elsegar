@@ -1,0 +1,47 @@
+.footer {
+    background-color: #E9FFFD !important;
+    color: #212529 !important;
+    text-align: center;
+    padding: 5px;
+    overflow: hidden;
+  }
+  
+  .footer .row a,
+  .footer .row a {
+  
+    display: block;
+    color: #e76f51 !important;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: right;
+    margin: 10px;
+  
+  }
+  
+  .footer .row .cont {
+    text-align: right;
+  }
+  
+  .footer .row .cont p a i {
+    color: #e76f51 !important;
+    font-size: 20px;
+    margin: 8px;
+    transition: all 1s ease-in-out;
+    text-align: right;
+  }
+  
+  .footer .row .cont p a i:hover {
+    color:#21252975   !important;
+  }
+  
+  .footer .row a:hover {
+    color: #21252975    !important;
+    transition: 0.5s ease;
+    margin-right: 5px;
+  }
+  
+  .footer .row p {
+    color: #212529;
+    font-size: 20px;
+  
+  }

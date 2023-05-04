@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+h2{
+  text-align: center;
+}
+.form{
+  background-color: rgb(195, 244, 244);
+ 
+}
+form{
+  margin: auto !important;
+
+}
+input , textarea{
+  display: block;
+  border-radius: 5px;
+}
+
+textarea{
+  height: 180px;
+}
+.input{
+
+  background-color:#fea621 !important ;
+  color: white;
+  margin: auto;
+  border: none;
+  padding: 1rem !important;
+  
+}
+.input:hover {
+  background-color:#fea621d3 !important ;
+  transition: 0.5s ease;
+
+
+}

@@ -1,0 +1,36 @@
+.contact {
+    background: #D4D4D4 url(http://quranport.com/wp-content/themes/quranport/images/globe.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: right 30px; 
+    border-top: 5px solid black !important;
+    
+}
+.contact .row h1 , .contact .row h2 {
+    font-weight: lighter;
+    text-align: center;
+}
+.contact .row p:nth-child(2) {
+    text-align: center;
+}
+.contact .row p span{
+    font-weight:400;
+    font-size: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    width: 100px;
+}
+.contact .row p a{
+    color: black;
+    text-decoration: none;
+}
+@media only screen and (max-width:676px) {
+    .contact .row p , .contact .row p a{
+        color: #ffffff;
+    }
+    .contact .row p:nth-child(2) , .contact .row p span{
+        color: black;
+
+    }
+    
+}

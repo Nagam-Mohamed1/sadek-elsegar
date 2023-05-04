@@ -1,0 +1,51 @@
+.item {
+
+  border: 4px solid #FFCE71;
+  position: relative;
+  padding: 20px;
+  height: 350px;
+  margin-top: 30px;
+  margin-left: 30px;
+  text-align: right;
+  direction: rtl;
+  font-size: 19px;
+  line-height: 40px;
+  font-weight: bold;
+
+}
+
+.item .country {
+
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+
+}
+
+.item img {
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 50px !important;
+  height: 50px !important;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
+
+
+}
+
+.owl-carousel .owl-stage-outer {
+
+  overflow: none !important;
+}
+
+@media only screen and (max-width:767px) {
+  .item {
+
+    margin: auto;
+    margin-top: 30px;
+
+  }
+}

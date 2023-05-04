@@ -1,0 +1,168 @@
+* {
+    font-family: 'Marhey', cursive;
+
+}
+
+.home .paragraph .row .par {
+    height: 700px;
+    float: right;
+    width: 50%;
+}
+
+.par {
+    margin-top: 25px;
+    height: 500px;
+}
+
+.about {
+    margin-top: 50vh;
+    background-color: #2b9d8e;
+}
+
+.par h2 {
+    margin-bottom: 20px;
+    text-align: right;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.about .video {
+    margin-top: 25px !important;
+
+}
+
+.about .video video {
+    width: 85%;
+    margin: auto !important;
+    display: block !important;
+    margin-top: 45px !important;
+
+
+}
+
+.about .row .par p {
+    font-size: 30px;
+    font-family: 'Marhey', cursive;
+    color: #ffffff;
+    font-weight: bold
+}
+
+
+
+
+
+.programs h1,
+.workshop h1 {
+    transition: all 2s ease-in-out;
+    color: #2a9d8f !important;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+.workshop .row .circle a img,
+.ask .row .left .circle a img {
+    height: 160px;
+
+}
+
+.workshop {
+    background-image: url(../images/bg.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 650px 650px;
+    background-attachment: scroll;
+}
+
+.ask {
+    background-color: #fea621;
+}
+
+.ask .row .left .circle {
+    background-color: white;
+    width: 160px;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.ask .row .left .circle:nth-child(1) {
+    background-color: transparent !important;
+    float: none !important;
+    display: block !important;
+    margin: auto !important;
+
+
+}
+
+.ask .row .left .circle:nth-child(2) {
+    float: left !important;
+}
+
+.ask .row .circle:nth-child(3) {
+    float: right !important;
+}
+
+.ask .row .right p span i {
+    font-size: 25px !important;
+    color: white !important;
+    margin: 5px !important;
+    transition: all 1s ease-in-out;
+
+}
+.ask .row .right p span{
+    font-size: 30px;
+    color: white;
+    display: block !important;
+    margin-top: 10px !important;
+}
+
+.ask .row .right p span i:hover {
+    margin-right: 10px !important;
+    font-size: 30px !important;
+}
+.ask .row .right p {
+    font-size: 25px !important;
+    text-align: justify !important;
+}
+
+.programs {
+
+    background-image: url(../images/bg.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 650px 650px;
+    background-attachment: scroll;
+}
+
+.home .row .v video {
+    width: 100% !important;
+    height: 650px !important;
+}
+
+.home {
+    z-index: -10;
+}
+
+.workshop .row .circle a img,
+.programs .row .circle a img {
+    width: 160px !important;
+    height: 160px !important;
+}
+
+@media only screen and (max-width:800px) {
+    .about .video video {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .programs .row .circle .center {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+}

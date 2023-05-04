@@ -1,0 +1,52 @@
+*{
+    direction: rtl;
+}
+.row h1 ,  .row h3{
+    color:    #264653;
+    text-align: center;
+}
+
+
+.insects.row h3{
+    color: #e76f51!important;
+}
+ 
+.insects{
+    background-color: #ffffff;
+    height: 99.9vh;
+}
+.chemist .row img{
+    margin-right: 400px;
+}
+ .row p{
+    font-size:23px;
+    color:#e76f51 ;
+}
+.row ol{
+    margin-right: 50px;
+    color:    #264653;
+    list-style: none;
+}
+.row ol li::before{
+    content:"\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    color:    #264653;
+    margin-left:10px;
+}
+.row{
+    margin: auto !important;
+}
+.row ol li{
+    font-size: 20px;
+}
+.aboutus .row  {
+    font-weight: bold;
+}
+.aboutus .row p:nth-child(1) {
+margin-bottom: 40px;
+}
+
+.aboutus .row p:nth-child(1) span{
+    margin-top: 40px;
+}

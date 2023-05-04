@@ -1,0 +1,23 @@
+.box {
+    position: relative;
+    border: solid 4px rgb(0, 0, 69) !important;
+    height: 400px;
+    width: calc(96%/3);
+    margin-left: 1%;
+    float: left;
+    padding: 25px;
+}
+
+.box::before {
+    font-size: 30px;
+    color: #f4a261;
+    font-family: FontAwesome;
+    content: "\f10d";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-20%, -35%);
+    background-color: white;
+    padding: 5px;
+
+}
