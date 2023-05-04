@@ -19,15 +19,11 @@
   <link rel="stylesheet" href="components/css/nav-2.css">
   <link rel="stylesheet" href="components/css/footer-3.css">
   <link rel="shortcut icon" href="tech/images/about.jfif" type="image/x-icon">
-
-
 </head>
 
 <body>
   <?php
-     
-     include"components/navbar.php"
-  
+     include "components/navbar.php"
   ?>
 
   <div class="container-fluid aboutus p-5 bot ">
@@ -49,9 +45,6 @@
         <p>
           <span>أهدافنا:</span>
         </p>
-
-
-
         <ol>
           <li>مساعدة الأطفال أن يسعدوا بحلقات القرآن</li>
           <li>يتدبروا الآيات حتى يفهموا ما يتلون.</li>
@@ -83,18 +76,6 @@
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
   <?php
 
