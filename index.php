@@ -201,6 +201,55 @@
       </div>
     </div>
   </div>
+  <div class="container-fluid form " id="form" style="background-color:#289d8f; line-height: 1.5;">
+
+<div class="row d-flex justify-content-center ">
+  <div class="center col-12 col-lg-6 p-5 ">
+
+    <form
+      style="background-color:white; padding:30px; box-sizing:border-box; box-shadow:0 20px 45px -10px rgb(0 0 0 / 15%);">
+      <h1 style="color:#fea621;text-align:center ">احجز الآن</h1>
+
+      <input class="col-11 m-auto mt-4 p-3" type="text" placeholder="الاسم">
+      <input class="col-11 m-auto mt-4 p-3" type="email" placeholder="البريد الإلكتروني">
+      <input class="col-11 m-auto mt-4 p-3" type="text" placeholder="الموضوع">
+      <label style="display:block; font-size:20px; margin-right:-12px;" class="p-3" for="">اختر الورشة</label>
+      <select name="" id="" style="display:block;margin:auto;box-sizing:border-box;  margin-right:0px;" class="p-3 col-11">
+        <option value="">عرفت ربي</option>
+        <option value="">النون</option>
+        <option value="">ما لي لا أرى</option>
+        <option value="">و العاديات</option>
+        <option value=""> الكواكب في القرآن</option>
+        <option value="">اليقطين</option>
+        <option value="">عماد الدين</option>
+        <option value="">و القمر إذا اتسق</option>
+        <option value="">العظام في القرآن</option>
+        <option value="">الألوان في القرآن</option>
+      </select>
+      <label style="display:block; font-size:20px;margin-right:-12px;" class="p-3" for="">اختر البرنامج</label>
+      <select name="" id="" style="display:block;margin:auto;box-sizing:border-box; margin-right:0px;" class="p-3 col-11">
+        <option value="">و في أنفسكم</option>
+        <option value="">المكتشف الصغير</option>
+        <option value="">سبحان الذي أسرى </option>
+        <option value="">فاقصص القصص </option>
+        <option value=""> الكيميائي الصغير</option>
+      </select>
+      <label style="display:block; font-size:20px; margin-right:-12px;" class="p-3" for="">الإستشارات</label>
+      <select style="display:block;margin:auto;box-sizing:border-box; margin-right:0px;" class="p-3 col-11" name="" id="">
+        <option class="p-2 d-block" value="">أم </option>
+        <option class="p-2 d-block" value="">معلمة </option>
+      </select>
+      <textarea class=" col-11 m-auto mt-4 p-3  " placeholder=" اكتب رسالة"></textarea>
+      <input type="submit" class="input p-2 col-11 mt-4" style="    background-color: #fea621 !important;
+    color: white;
+    margin: auto;
+    border: none;" value="إرسال">
+    </form>
+  </div>
+
+</div>
+
+</div>
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
