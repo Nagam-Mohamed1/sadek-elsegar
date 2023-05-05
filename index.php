@@ -207,8 +207,6 @@
   <div class="center col-12 col-lg-6 p-5 ">
 
     <form
-    action="send-email.php"
-    method="post"
       style="background-color:white; padding:30px; box-sizing:border-box; box-shadow:0 20px 45px -10px rgb(0 0 0 / 15%);">
       <h1 style="color:#fea621;text-align:center ">احجز الآن</h1>
 
