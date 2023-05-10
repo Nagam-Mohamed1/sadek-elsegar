@@ -22,7 +22,6 @@
 
 <body>
   <?php
-     
      include"components/navbar.php";
 
   
@@ -206,15 +205,16 @@
 <div class="row d-flex justify-content-center ">
   <div class="center col-12 col-lg-6 p-5 ">
 
-    <form
+    <form action="sendEmail.php"
+          method="post"
       style="background-color:white; padding:30px; box-sizing:border-box; box-shadow:0 20px 45px -10px rgb(0 0 0 / 15%);">
       <h1 style="color:#fea621;text-align:center ">احجز الآن</h1>
 
       <input class="col-11 m-auto mt-4 p-3" name="name" type="text" placeholder="الاسم">
-      <input class="col-11 m-auto mt-4 p-3" name="email" type="email" placeholder="البريد الإلكتروني">
+      <input required class="col-11 m-auto mt-4 p-3" name="email" type="email" placeholder="البريد الإلكتروني">
       <input class="col-11 m-auto mt-4 p-3" name="subject" type="text" placeholder="الموضوع">
       <label style="display:block; font-size:20px; margin-right:-12px;" class="p-3" for="">اختر الورشة</label>
-      <select name="choose-warsha" id="" style="display:block;margin:auto;box-sizing:border-box;  margin-right:0px;" class="p-3 col-11">
+      <select required name="choose-warsha" id="" style="display:block;margin:auto;box-sizing:border-box;  margin-right:0px;" class="p-3 col-11">
         <option value="عرفت ربي">عرفت ربي</option>
         <option value="النون">النون</option>
         <option value="ما لى لا أرى">ما لي لا أرى </option>
@@ -227,20 +227,20 @@
         <option value="الألوان فى القرآن">الألوان في القرآن</option>
       </select>
       <label style="display:block; font-size:20px;margin-right:-12px;" class="p-3" for="">اختر البرنامج</label>
-      <select name="program-name" id="" style="display:block;margin:auto;box-sizing:border-box; margin-right:0px;" class="p-3 col-11">
+      <select required name="program-name" id="" style="display:block;margin:auto;box-sizing:border-box; margin-right:0px;" class="p-3 col-11">
         <option value="وفى أنفسكم">و في أنفسكم</option>
         <option value="المكتشف الصغير">المكتشف الصغير</option>
         <option value="سبحان الذى أسرى">سبحان الذي أسرى </option>
         <option value="فاقصص القصص">فاقصص القصص </option>
         <option value="الكيميائى الصغير"> الكيميائي الصغير</option>
       </select>
-      <label style="display:block; font-size:20px; margin-right:-12px;" class="p-3" for="">الإستشارات</label>
-      <select style="display:block;margin:auto;box-sizing:border-box; margin-right:0px;" class="p-3 col-11" name="consultants" id="">
+      <label  style="display:block; font-size:20px; margin-right:-12px;" class="p-3" for="">الإستشارات</label>
+      <select required style="display:block;margin:auto;box-sizing:border-box; margin-right:0px;" class="p-3 col-11" name="consultants" id="">
         <option class="p-2 d-block" value="أم">أم </option>
         <option class="p-2 d-block" value="معلمة">معلمة </option>
       </select>
       <textarea name="message" class=" col-11 m-auto mt-4 p-3  " placeholder=" اكتب رسالة"></textarea>
-      <input type="submit" class="input p-2 col-11 mt-4" style="    background-color: #fea621 !important;
+      <input  type="submit" class="input p-2 col-11 mt-4" style="    background-color: #fea621 !important;
     color: white;
     margin: auto;
     border: none;" value="إرسال">
