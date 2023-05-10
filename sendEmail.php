@@ -65,7 +65,7 @@ try{
     $mail2->Port = 465;
 
     $mail2->setFrom("sadek.elsegar@gmail.com", "sadek.elsegar@gmail.com",0);
-    $mail2->AddAddress('abdelrahmn.ahmed119@gmail.com');
+    $mail2->AddAddress('sanaa.info023@gmail.com');
     $mail2->Subject = 'تفاصيل الحجز';
     $mail2->Body = "Name: ".$name."\n".
                    "Email: ".$email."\n".
