@@ -23,8 +23,6 @@
 <body>
   <?php
      include"components/navbar.php";
-
-
   ?>
   <div class="container-fluid home" id="home">
     <div class="row">
@@ -207,37 +205,38 @@
 
     <form action="sendEmail.php"
           method="post"
+          id="form11"
       style="background-color:white; padding:30px; box-sizing:border-box; box-shadow:0 20px 45px -10px rgb(0 0 0 / 15%);">
       <h1 style="color:#fea621;text-align:center ">احجز الآن</h1>
 
       <input class="col-11 m-auto mt-4 p-3" name="name" type="text" placeholder="الاسم">
       <input required class="col-11 m-auto mt-4 p-3" name="email" type="email" placeholder="البريد الإلكتروني">
-      <input class="col-11 m-auto mt-4 p-3" name="subject" type="text" placeholder="الموضوع">
-      <label style="display:block; font-size:20px; margin-right:-12px;" class="p-3" for="">اختر الورشة</label>
-      <select required name="choose-warsha" id="" style="display:block;margin:auto;box-sizing:border-box;  margin-right:0px;" class="p-3 col-11">
-        <option value="عرفت ربي">عرفت ربي</option>
-        <option value="النون">النون</option>
-        <option value="ما لى لا أرى">ما لي لا أرى </option>
-        <option value="والعاديات">و العاديات</option>
-        <option value="الكواكب فى القرآن"> الكواكب في القرآن</option>
-        <option value="اليقطين">اليقطين</option>
-        <option value="عماد الدين">عماد الدين</option>
-        <option value="والقمر إذا اتسق">و القمر إذا اتسق</option>
-        <option value="العظام فى القرآن">العظام في القرآن</option>
-        <option value="الألوان فى القرآن">الألوان في القرآن</option>
-      </select>
-      <label style="display:block; font-size:20px;margin-right:-12px;" class="p-3" for="">اختر البرنامج</label>
-      <select required name="program-name" id="" style="display:block;margin:auto;box-sizing:border-box; margin-right:0px;" class="p-3 col-11">
-        <option value="وفى أنفسكم">و في أنفسكم</option>
-        <option value="المكتشف الصغير">المكتشف الصغير</option>
-        <option value="سبحان الذى أسرى">سبحان الذي أسرى </option>
-        <option value="فاقصص القصص">فاقصص القصص </option>
-        <option value="الكيميائى الصغير"> الكيميائي الصغير</option>
-      </select>
-      <label  style="display:block; font-size:20px; margin-right:-12px;" class="p-3" for="">الإستشارات</label>
-      <select required style="display:block;margin:auto;box-sizing:border-box; margin-right:0px;" class="p-3 col-11" name="consultants" id="">
-        <option class="p-2 d-block" value="أم">أم </option>
-        <option class="p-2 d-block" value="معلمة">معلمة </option>
+      <input class="col-11 m-auto mt-4 p-3" name="age" type="number" placeholder="العمر">
+      <label style="display:block; font-size:20px; margin-right:-12px;" class="p-3" for="">للحجز (ورشة - برنامج - إستشارة)</label>
+      <select required name="program" id="" style="display:block;margin:auto;box-sizing:border-box;  margin-right:0px;" class="p-3 col-11">
+        <optgroup label="الورش المتاحة">
+          <option value="عرفت ربي">عرفت ربي</option>
+          <option value="النون">النون</option>
+          <option value="ما لى لا أرى">ما لي لا أرى </option>
+          <option value="والعاديات">و العاديات</option>
+          <option value="الكواكب فى القرآن"> الكواكب في القرآن</option>
+          <option value="اليقطين">اليقطين</option>
+          <option value="عماد الدين">عماد الدين</option>
+          <option value="والقمر إذا اتسق">و القمر إذا اتسق</option>
+          <option value="العظام فى القرآن">العظام في القرآن</option>
+          <option value="الألوان فى القرآن">الألوان في القرآن</option>
+        </optgroup>
+        <optgroup label="البرامج المتاحة">
+          <option value="وفى أنفسكم">و في أنفسكم</option>
+          <option value="المكتشف الصغير">المكتشف الصغير</option>
+          <option value="سبحان الذى أسرى">سبحان الذي أسرى </option>
+          <option value="فاقصص القصص">فاقصص القصص </option>
+          <option value="الكيميائى الصغير"> الكيميائي الصغير</option>
+        </optgroup>
+        <optgroup label="الاستشارات المتاحة">
+          <option class="p-2 d-block" value="أم">أم </option>
+          <option class="p-2 d-block" value="معلمة">معلمة </option>
+        </optgroup>
       </select>
       <textarea name="message" class=" col-11 m-auto mt-4 p-3  " placeholder=" اكتب رسالة"></textarea>
       <input  type="submit" class="input p-2 col-11 mt-4" style="    background-color: #fea621 !important;

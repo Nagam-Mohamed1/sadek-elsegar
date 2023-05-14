@@ -12,10 +12,8 @@ $mail2->CharSet = "UTF-8";
 
 $name = $_POST['name'];
 $email = $_POST['email'];
-$subject = $_POST['subject'];
-
-$program = $_POST['program-name'];
-$consultants = $_POST['consultants'];
+$age = $_POST['age'];
+$program = $_POST['program'];
 $message = $_POST['message'];
 
 try {
@@ -69,9 +67,8 @@ try{
     $mail2->Subject = 'تفاصيل الحجز';
     $mail2->Body = "Name: ".$name."\n".
                    "Email: ".$email."\n".
-                   "Subject: ".$subject."\n".
+                   "Age: ".$age."\n".
                    "Program: ".$program."\n".
-                   "Consultants: ".$consultants."\n".
                    "Message: ".$message."\n";
 $mail2->send();
 echo 'Message has been sent';

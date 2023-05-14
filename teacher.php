@@ -61,7 +61,7 @@
             <div class="left col-lg-3 col-12 m-lg-0 m-5">
                 <img class="d-block m-auto w-lg-100 w-75 mb-3 mt-3" src="tech/images/teacher.png" alt="">
 
-                <a href="../Quraan/index.php#form">احجز الآن</a>
+                <a href="index.php#form11">احجز الآن</a>
 
           
 

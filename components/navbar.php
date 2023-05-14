@@ -15,13 +15,13 @@
           الأنشطة
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="../Quraan/index.php#workshop">الورش</a></li>
-          <li><a class="dropdown-item" href="../Quraan/index.php#programs">البرامج</a></li>
+          <li><a class="dropdown-item" href="index.php#workshop">الورش</a></li>
+          <li><a class="dropdown-item" href="index.php#programs">البرامج</a></li>
         </ul>
       </li>
       <li class="nav-item"><a href="index.php#ask" class="nav-link">خدمات اخرى</a></li>
       <li class="nav-item"><a href="About.php" class="nav-link">عن المنصة</a></li>
-      <li class="nav-item"><a href="../Quraan/feedback.php" class="nav-link">الآراء </a></li>
+      <li class="nav-item"><a href="feedback.php" class="nav-link">الآراء </a></li>
 
     </ul>
   </div>
